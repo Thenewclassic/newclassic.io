@@ -1,0 +1,19 @@
+{
+  "name": "newclassic.io",
+  "version": "1.0.0",
+  "description": "Main website of new classic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thenewclassic/newclassic.io.git"
+  },
+  "author": "Carlos Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thenewclassic/newclassic.io/issues"
+  },
+  "homepage": "https://github.com/Thenewclassic/newclassic.io#readme"
+}
