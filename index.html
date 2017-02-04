@@ -3,17 +3,49 @@
     <head>
         <meta charset="utf-8">
         <title>new classic</title>
+        <link rel="stylesheet" type="text/css" href="node_modules/semantic-ui-css/semantic.min.css" />
         <style>
+            body {
+                font-family: 'consolas', courier, monospace;
+                background: #f8f9fa;
+            }
             main {
-                margin: 30px auto;
+                padding: 80px 0;
                 text-align: center;
+            }
+
+            a {
+                color: #868e96;
+                transition: color 0.4s;
+            }
+
+            a:hover {
+                color: #495057;
+            }
+
+            .header.title {
+                font-family: 'consolas', courier, monospace;
+                color: #343a40;
+            }
+
+            .contact-link {
+                display: block;
+                width: 100%;
+                height: 100%;
             }
         </style>
     </head>
     <body>
         <main>
-            <h1>new classic</h1>
-            <a href="mailto:carlos@newclassic.io">Say hello.</a>
+            <h1 class="ui header title">new classic</h1>
+            <div class="ui animated button">
+                <div class="visible content">Say <em>hello</em></div>
+                <div class="hidden content">
+                    <a class="contact-link" href="mailto:carlos@newclassic.io"><i class="mail icon"></i></a>
+                </div>
+            </div>
         </main>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/semantic-ui-css/semantic.min.js"></script>
     </body>
 </html>
