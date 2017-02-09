@@ -1,4 +1,8 @@
+public
 _site
 .sass-cache
 .jekyll-metadata
+.DS_Store
 npm-debug.log
+src/bundle.js
+node_modules
