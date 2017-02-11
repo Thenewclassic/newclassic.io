@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: 'consolas', courier, monospace;
-    background: url(../assets/images/space-bg-1.jpg), linear-gradient(45deg, #3d733f 0%,#9c4227 100%);
+    background: url(../assets/images/space-bg-1.jpg) no-repeat, linear-gradient(45deg, #3d733f 0%,#9c4227 100%)  no-repeat;
     background-blend-mode: overlay;
     background-size: cover;
 }
@@ -47,4 +47,18 @@ a:hover {
 
 .post-list {
     list-style: none;
+}
+
+body {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+      background-blend-mode: multiply;
+  }
+  
+  100% {
+      background-blend-mode: multiply;
+  }
 }
